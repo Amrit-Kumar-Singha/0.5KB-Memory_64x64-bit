@@ -1,0 +1,20 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_sram_64bit.addr tb_sram_64bit.clk tb_sram_64bit.din tb_sram_64bit.dout tb_sram_64bit.we
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 70 NS + 0
+./64_bit_SRAM_tb.v:72         $finish;
+ncsim> run
+ncsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+ncsim: Memory Usage - 38.6M program + 164.3M data = 202.9M total (206.5M Peak)
+ncsim: CPU Usage - 1.4s system + 0.7s user = 2.1s total (112.7s, 1.8% cpu)
