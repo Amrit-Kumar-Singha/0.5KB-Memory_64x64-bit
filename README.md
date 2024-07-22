@@ -25,9 +25,11 @@ The aim was to design a 64x64 bit RAM, a fundamental component in many digital s
 - Achieved a functional and verified physical layout, ready for fabrication.
 
 ## Visuals
-Here are some screenshots from the Innovus tool, showcasing the layout and routing of the 64x64 bit RAM.
+Here are some screenshots from the Innovus tool, showcasing the schematic, waveforms, layout and routing of the 64x64 bit RAM.
 
+![Gui_schematic](Wave_forms.jpg)
 ![Gui_schematic](gui_schematic.gif)
+![Gui_schematic](Schematic.jpg)
 ![Routing Screenshot](Screenshot_from_2024-07-18_14-28-47.png)
 
 Feel free to reach out if you have any questions or would like to discuss this project in more detail.
